@@ -652,6 +652,7 @@ PRODUCT_PACKAGES += \
     libBlinkStub \
     libFlickerDet \
     libI420colorconvert \
+    libQnnHtpStub \
     libSNPE \
     libSuperSensorCPU \
     libSuperSensorHVX \
