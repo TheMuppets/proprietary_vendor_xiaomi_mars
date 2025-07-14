@@ -460,42 +460,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor_ramdisk/lib/firmware/st_fts_k2_htp.ftb:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/st_fts_k2_htp.ftb
 
 PRODUCT_PACKAGES += \
-    libbitmlengine \
-    libcamera_nn_stub \
     libcamxexternalformatutils \
-    libcamxfacialfeatures \
-    libcamxfdalgo \
-    libcamxfdengine \
-    libcamxifestriping \
-    libcamximageformatutils \
-    libcamxqsatalgo \
-    libcamxstatscore \
-    libcamxswispiqmodule \
-    libcamxswprocessalgo \
-    libcamxtintlessalgo \
-    libjpege \
-    libmctfengine_stub \
-    libmmcamera_bestats \
-    libmmcamera_cac3 \
-    libmmcamera_faceproc \
-    libmmcamera_faceproc2 \
-    libmmcamera_lscv35 \
-    libmmcamera_mfnr \
-    libmmcamera_mfnr_t4 \
-    libmmcamera_pdpc \
-    libofflinelog \
-    libopencv \
-    libprotobuf-cpp-full-vendor-3.9.1 \
-    libsensorslog \
-    libsns_fastRPC_util \
-    libsns_low_lat_stream_stub \
-    libsnsapi \
-    libsnsdiaglog \
-    libssc \
-    vendor.xiaomi.hardware.cameraperf@1.0-impl \
-    vendor.xiaomi.hardware.cameraperf@1.0 \
-    vl53l5.hal@1.0 \
-    vl53l5.hal@2.0 \
     audio.primary.lahaina \
     liba2dpoffload \
     libacdb-fts \
@@ -711,12 +676,24 @@ PRODUCT_PACKAGES += \
     libarcsoft_portrait_lighting_c \
     libarcsoft_qnnhtp \
     libarcsoft_super_night_raw \
+    libbitmlengine \
     libblink \
     libc++_shared \
     libcamera_dirty \
+    libcamera_nn_stub \
     libcamera_scene \
     libcamera_scene_dxo \
     libcamerapostproc \
+    libcamxfacialfeatures \
+    libcamxfdalgo \
+    libcamxfdengine \
+    libcamxifestriping \
+    libcamximageformatutils \
+    libcamxqsatalgo \
+    libcamxstatscore \
+    libcamxswispiqmodule \
+    libcamxswprocessalgo \
+    libcamxtintlessalgo \
     libchilog \
     libcom.qti.chinodeutils \
     libcom.xiaomi.debug \
@@ -730,6 +707,8 @@ PRODUCT_PACKAGES += \
     libhdrdynamicootf \
     libhexagon_controller \
     libipebpsstriping \
+    libjpege \
+    libmctfengine_stub \
     libmiStereoFactoryRemapBasicLib \
     libmiStereoFactoryRemapLib \
     libmiStereoFactoryRemapLib_v2 \
@@ -764,11 +743,21 @@ PRODUCT_PACKAGES += \
     libmivsock_utils \
     libmm-color-convertor \
     libmm-hdcpmgr \
+    libmmcamera_bestats \
+    libmmcamera_cac3 \
+    libmmcamera_faceproc \
+    libmmcamera_faceproc2 \
+    libmmcamera_lscv35 \
+    libmmcamera_mfnr \
+    libmmcamera_mfnr_t4 \
+    libmmcamera_pdpc \
     libmmhardware \
     libmpbase \
     libnanopb \
     libnotifyaudiohal \
     libofflinedump \
+    libofflinelog \
+    libopencv \
     libopenvx \
     libopestriping \
     libos \
@@ -780,10 +769,16 @@ PRODUCT_PACKAGES += \
     libremosaic_wrapper \
     libremosaiclib \
     libsensorcal \
+    libsensorslog \
     libsnpe_htp \
     libsns_api \
     libsns_device_mode_stub \
+    libsns_fastRPC_util \
+    libsns_low_lat_stream_stub \
     libsns_registry_skel \
+    libsnsapi \
+    libsnsdiaglog \
+    libssc \
     libssc_default_listener \
     libssccalapi \
     libsupermoon \
@@ -808,11 +803,15 @@ PRODUCT_PACKAGES += \
     sensors.ssc \
     sensors.touch.detect \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
+    vendor.xiaomi.hardware.cameraperf@1.0-impl \
+    vendor.xiaomi.hardware.cameraperf@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
     vendor.xiaomi.hardware.citsensorservice@1.0 \
     vendor.xiaomi.hardware.citsensorservice@1.1 \
     vendor.xiaomi.hardware.dtool@1.0 \
+    vl53l5.hal@1.0 \
+    vl53l5.hal@2.0 \
     vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDADV_Encoder_so \
     vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDAD_Speech_Decoder_so \
     vendor_lib_rfsa_adsp_capi_v2_cirrus_sp_so \
