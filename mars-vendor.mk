@@ -472,16 +472,10 @@ PRODUCT_PACKAGES += \
     libaudioconfigstore \
     libaudioparsers \
     libaudioroute_ext \
-    libbatterylistener \
     libcomprcapture \
-    libexthwplugin \
-    libhdmiedid \
     libhdmipassthru \
-    libhfp \
     libqtigef \
     libresampler \
-    libsndmonitor \
-    libspkrprot \
     libvideoNS \
     HDR10plus \
     com.qti.eeprom.mars_ofilm_ov13b10_p24c64f_ultra_eeprom \
