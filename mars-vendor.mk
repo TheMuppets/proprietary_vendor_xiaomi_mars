@@ -728,7 +728,6 @@ PRODUCT_PACKAGES += \
     libminziparchive \
     libmiphone_capture_bokeh \
     libmiphone_preview_bokeh \
-    libmisight \
     libmivsock_utils \
     libmm-color-convertor \
     libmm-hdcpmgr \
