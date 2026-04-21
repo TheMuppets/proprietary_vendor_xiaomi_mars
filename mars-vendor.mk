@@ -459,8 +459,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libcamxexternalformatutils \
-    audio.primary.lahaina \
-    liba2dpoffload \
+    audio.primary.mars \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -483,7 +482,6 @@ PRODUCT_PACKAGES += \
     libresampler \
     libsndmonitor \
     libspkrprot \
-    libssrec \
     libvideoNS \
     HDR10plus \
     com.qti.eeprom.mars_ofilm_ov13b10_p24c64f_ultra_eeprom \
@@ -852,6 +850,8 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_misound_res_headphone_bin \
     vendor_lib_rfsa_adsp_misound_res_spk_bin \
     vendor_lib_rfsa_adsp_misound_res_spk_mars_bin \
+    liba2dpoffload_odm \
+    libssrec_odm \
     batterysecret \
     init.qcom.sensors \
     sensors.qti \
