@@ -717,9 +717,6 @@ PRODUCT_PACKAGES += \
     libcamera_scene \
     libcamera_scene_dxo \
     libcamerapostproc \
-    libcapiv2svacnn \
-    libcapiv2svarnn \
-    libcapiv2vop \
     libchilog \
     libcom.qti.chinodeutils \
     libcom.xiaomi.debug \
